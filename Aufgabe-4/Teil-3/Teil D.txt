@@ -1,0 +1,22 @@
+private boolean done = false;
+private int distanz = 0;
+public void fuenfProben() {
+	while(!gesteinVorhanden() && !done) {
+		fahre();
+		distanz++;
+	}
+	done = true;
+	for(int i = 0; i<5; i++) {
+		analysiereGestein();
+		fahre();
+	}
+	for(int i = 0; i<2; i++) {
+		drehe("rechts");
+	}
+	for(int i = 0; i<(5+distanz); i++) {
+		fahre();
+	}
+	for(int i = 0; i<2; i++) {
+		drehe("rechts");
+	}
+}
