@@ -1,0 +1,15 @@
+/**
+	Das hat als Effekt, dass "i" verringert wird.
+*/
+
+private boolean done = false;
+public void fuenfProben() {
+	while(!gesteinVorhanden() && !done) {
+		fahre();
+	}
+	done = true;
+	for(int i = 5; i==0; i--) {
+		analysiereGestein();
+		fahre();
+	}
+}
