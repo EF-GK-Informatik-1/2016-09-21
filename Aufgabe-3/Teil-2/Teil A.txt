@@ -1,0 +1,6 @@
+public void nimmVierGesteinsprobemAuf() {
+	for(int i = 0; i<4; i++) {
+		fahre();
+		analysiereGestein();
+	}
+}
