@@ -1,0 +1,19 @@
+//FÜR 3
+public void act() {
+	for(int i = 0; i<3; i++) {fahre(); setzeMarke();}
+}
+
+//FÜR 8
+public void act() {
+	for(int i = 0; i<8; i++) {fahre(); setzeMarke();}
+}
+
+//FÜR 20
+public void act() {
+	for(int i = 0; i<20; i++) {fahre(); setzeMarke();}
+}
+
+//FÜR 100
+public void act() {
+	for(int i = 0; i<100; i++) {fahre(); setzeMarke();}
+}
