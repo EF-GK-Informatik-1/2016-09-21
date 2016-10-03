@@ -1,0 +1,11 @@
+private boolean done = false;
+public void fuenfProben() {
+	while(!gesteinVorhanden() && !done) {
+		fahre();
+	}
+	done = true;
+	for(int i = 23; i<(23+5); i++) {
+		analysiereGestein();
+		fahre();
+	}
+}
